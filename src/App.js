@@ -28,7 +28,7 @@ function App() {
         </div>
         <BottomRow />
       </section>
-      <Buttons />
+      <Buttons homeScoreprops={homeScore} awayScoreprops={awayScore} setHomeScoreprops={setHomeScore} setAwayScoreprops={setAwayScore}/>
     </div>
   );
 }
